@@ -143,4 +143,7 @@ function copyPassword() {
     alert("Password copied to clipboard!");
 
     passwordText.value = password;
+    
+generatePasswordButton.addEventListener('click', generatePassword);
+copyToClipBoardButton.addEventListener('click', copytoClipboard);
 }
