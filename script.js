@@ -126,13 +126,13 @@ document.getElementById("password").textContent = ps;
 }
 
 var passwordText = document.querySelector("#passwordText");
-passwordText.addEventListener("click",  function () {
+passwordText.addEventListener("click", passwordText);
 ps = passwordText();
 
 var copy = document.querySelector("#copy");
-copy.addEventListener("click", function () {
+copy.addEventListener("click", copy);
 ps = copyPassword();
-});
+
 // This copies the password value - works
 // Code example demonstrated in a youtube video: 
 // Source: https://youtu.be/9sT03jEwcaw
@@ -143,4 +143,4 @@ function copyPassword() {
     alert("Password copied to clipboard!");
 
     passwordText.value = password;
-}})
+}
