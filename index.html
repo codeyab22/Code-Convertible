@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Password Generator</title>
+<link rel="stylesheet" type="text/css" href="reset.css">
+ <link rel="stylesheet" type="text/css" href="style.css">
+
+ <body>
+  <div class="container">
+ <!-- heading -->
+  <div class="row">
+   <header class="col-md-12">
+  <h1>Password Generator</h1>
+   </header>  
+  </div>
+    <!-- section -->
+  <section>
+   <!-- secondary heading -->
+  <div class="row">
+    <div class="col-md-12">
+   <h2>Generate a Password</h2>
+ </div>
+ </div>
+   <hr>
+  <!-- textarea for password -->
+  <div class="row">
+   <div class="col-md-12">
+ <textarea readonly id="password" placeholder="Your Secure Password"
+ aria-label="Generated Password"></textarea>
+   </div>
+  </div>
+  <!-- buttons for password -->
+   <hr>
+ <div class="row">
+  <div class="col-md-6">
+<button id="generate" class ="generate" clickon()="generate">Generate Password</button>
+ </div>
+ <div class="col-md-6">
+ <button id="copy" class ="button" clickon()="button">Copy to Clipboard</button>
+ </div>
+ </div>
+ </section>
+ </div>
+ <script src="./resources/js/script.js"></script>
+</body>
+
