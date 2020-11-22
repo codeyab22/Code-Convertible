@@ -1,4 +1,4 @@
-
+console.log("script is loaded")
 //Start with user variables
 var enter;
 var confirmNumber;
