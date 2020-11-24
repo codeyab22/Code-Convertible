@@ -22,7 +22,7 @@ var toUpper = function (x) {
     return x.toUpperCase();
 };
 
-//This is the part of puesdcode. 
+//This is the part of puesdocode. 
 var generateBtn = document.querySelector("#generate");
 generateBtn.addEventListener("click", writePassword);
 
@@ -124,7 +124,7 @@ return ps;
 function UserInput(ps) {
 document.getElementById("password").textContent = ps;
 }
-//These are aadd.eventlisteners for variables  
+//These are add.eventlisteners for variables  
 var passwordText = document.querySelector("#passwordText");
 passwordText.addEventListener("click", function () {
 ps = passwordText();
