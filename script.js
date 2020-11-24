@@ -24,7 +24,7 @@ var toUpper = function (x) {
 
 //This is the part of puesdocode. 
 var generateBtn = document.querySelector("#generate");
-generateBtn.addEventListener("click", writePassword);
+generateBtn.addEventListener("click", generatePassword);
 
 // Created function generatePassword
 function generatePassword() {
