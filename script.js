@@ -181,17 +181,3 @@ function generatePassword() {
   return password.join("");
 }
 // This puts the password value into the textbox
-function UserInput(ps) {
-    document.getElementById("password").textContent = ps;
-
-}
-
-var copy = document.querySelector("#copy");
-copy.addEventListener("click", function () {
-    copyPassword();
-});
-// This copies the password value 
-function copyPassword() {
-    document.getElementById("password").select();
-    document.execCommand("Copy");
-    alert("Password copied to clipboard!");
