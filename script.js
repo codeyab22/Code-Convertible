@@ -181,4 +181,3 @@ function generatePassword() {
   return password.join("");
 }
 // This puts the password value into the textbox
-return password;
