@@ -124,7 +124,7 @@ function generatePassword() {
     choices = alert("You must choose a criteria!");
   }
   // First if statement determines choices by user's prompts
-  // Else if for 4 positive choices
+  //  4 positive options
   else if (
     confirmCharacter &&
     confirmNumber &&
@@ -133,7 +133,7 @@ function generatePassword() {
   ) {
     choices = character.concat(number, alpha, alpha2);
   }
-  //  3 positive options
+  // Else if for 3 positive choices
   else if (confirmCharacter && confirmNumber && confirmUppercase) {
     choices = character.concat(number, alpha2);
   } else if (confirmCharacter && confirmNumber && confirmLowercase) {
@@ -143,7 +143,7 @@ function generatePassword() {
   } else if (confirmNumber && confirmLowercase && confirmUppercase) {
     choices = number.concat(alpha, alpha2);
   }
-  //  2 positive options
+  // Else if for 2 positive choices
   else if (confirmCharacter && confirmNumber) {
     choices = character.concat(number);
   } else if (confirmCharacter && confirmLowercase) {
@@ -157,7 +157,7 @@ function generatePassword() {
   } else if (confirmNumber && confirmUppercase) {
     choices = number.concat(alpha2);
   }
-  //1 positive option
+  // Else if for 1 positive choice
   else if (confirmCharacter) {
     choices = character;
   } else if (confirmNumber) {
