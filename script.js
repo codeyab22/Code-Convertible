@@ -115,7 +115,7 @@ for (var i = 0; i < enter; i++) {
     password.push(pickChoices);
 }
 // This joins the password array and converts it to a string
-var ps = password.join("");
+ return password.join("");
 UserInput(ps);
 return ps;
 }
