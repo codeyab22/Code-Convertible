@@ -18,7 +18,7 @@ var confirmUppercase;
 var confirmLowercase;
 // Start Password variable values:
 // Arrays: Special characters
-Spechar = [
+var Spechar = [
   "!",
   "#",
   "$",
@@ -52,9 +52,9 @@ Spechar = [
   "~",
 ];
 // Numeric characters
-Num = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+var Num = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 // Alphabetical characters
-Alpha = [
+var Alpha = [
   "a",
   "b",
   "c",
@@ -83,7 +83,7 @@ Alpha = [
   "z",
 ];
 // Space is for the Uppercase conversion
-Space = [];
+var Space = [];
 // Choices declared outside the if statement so they can be concatenated upon condition
 var choices;
 // converts letters to uppercase
@@ -95,7 +95,7 @@ var generateBtn = document.querySelector("#generate");
 generateBtn.addEventListener("click", generatePassword);
 // Created function generatePassword
 function generatePassword() {
-  enter = parseInt(
+  var enter = parseInt(
     prompt(
       "How many characters would you like your password? Choose between 8 and 128"
     )
@@ -131,7 +131,7 @@ function generatePassword() {
     confirmUppercase &&
     confirmLowercase
   ) {
-    choices = character.concat(number, alpha, alpha2);
+    var choices = character.concat(number, alpha, alpha2);
   }
   // Else if for 3 positive choices
   else if (confirmCharacter && confirmNumber && confirmUppercase) {
