@@ -117,7 +117,7 @@ function generatePassword() {
   }
   // Else if for 4 negative choicess
   if (
-    var !confirmCharacter &&
+    !confirmCharacter &&
     !confirmNumber &&
     !confirmUppercase &&
     !confirmLowercase
@@ -127,7 +127,7 @@ function generatePassword() {
   // First if statement determines choices by user's prompts
   //  4 positive options
   else if (
-    var confirmCharacter &&
+  confirmCharacter &&
     confirmNumber &&
     confirmUppercase &&
     confirmLowercase
