@@ -118,9 +118,9 @@ function generatePassword() {
   // Else if for 4 negative choicess
   if (
     var !confirmCharacter &&
-    var !confirmNumber &&
-    var !confirmUppercase &&
-    var !confirmLowercase
+    !confirmNumber &&
+    !confirmUppercase &&
+    !confirmLowercase
   ) {
     var choices = alert("You must choose a criteria!");
   }
@@ -128,9 +128,9 @@ function generatePassword() {
   //  4 positive options
   else if (
     var confirmCharacter &&
-    var confirmNumber &&
-    var confirmUppercase &&
-    var confirmLowercase
+    confirmNumber &&
+    confirmUppercase &&
+    confirmLowercase
   ) {
     var choices = character.concat(number, alpha, alpha2);
   }
