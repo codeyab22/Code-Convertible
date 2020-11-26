@@ -110,10 +110,10 @@ function generatePassword() {
     var enter = parseInt(prompt("You must choose between 8 and 128"));
   } else {
     // Continues once user input is validated
- confirmNumber = confirm("Will this include numbers?");
- confirmCharacter = confirm("Will this include special characters?");
- confirmUppercase = confirm("Will this include Uppercase letters?");
- confirmLowercase = confirm("Will this include Lowercase letters?");
+ var confirmNumber = confirm("Will this include numbers?");
+ var confirmCharacter = confirm("Will this include special characters?");
+ var confirmUppercase = confirm("Will this include Uppercase letters?");
+var confirmLowercase = confirm("Will this include Lowercase letters?");
   }
   // Else if for 4 negative choicess
   if (
