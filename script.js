@@ -1,4 +1,6 @@
   // Adia's Assignment Code
+//This is the part of puesdocode.
+
 var generateBtn = document.querySelector("#generate");
 // Write password to the #password input
 function writePassword() {
@@ -82,6 +84,34 @@ var alpha = [
   "y",
   "z",
 ];
+var alpha2 = [
+  "A",
+  "B",
+  "C",
+  "D",
+  "E",
+  "F",
+  "G",
+  "H",
+  "I",
+  "J",
+  "K",
+  "L",
+  "M",
+  "N",
+  "O",
+  "P",
+  "Q",
+  "R",
+  "S",
+  "T",
+  "U",
+  "V",
+  "W",
+  "X",
+  "Y",
+  "Z",
+];
 // Space is for the Uppercase conversion
 var space = [];
 // Choices declared outside the if statement so they can be concatenated upon condition
@@ -90,9 +120,6 @@ var choices;
 var toUpper = function (x) {
   return x.toUpperCase();
 };
-//This is the part of puesdocode.
-var generateBtn = document.querySelector("#generate");
-generateBtn.addEventListener("click", generatePassword);
 // Created function generatePassword
 function generatePassword() {
   var enter = parseInt(
