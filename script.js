@@ -132,7 +132,7 @@ function generatePassword() {
     confirmLowercase
   ) {
     var character = [ ]
-    var choices = character.concat(num, alpha, alpha2);
+    var choices = character.concat(num, alpha);
   }
   // Else if for 3 positive choices
   else if (confirmCharacter && confirmNumber && confirmUppercase) {
