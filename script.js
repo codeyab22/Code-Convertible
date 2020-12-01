@@ -18,7 +18,7 @@ var confirmUppercase;
 var confirmLowercase;
 // Start Password variable values:
 // Arrays: Special characters
-var Spechar = [
+var character = [
   "!",
   "#",
   "$",
@@ -52,9 +52,9 @@ var Spechar = [
   "~",
 ];
 // Numeric characters
-var Num = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+var num = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 // Alphabetical characters
-var Alpha = [
+var alpha = [
   "a",
   "b",
   "c",
@@ -83,7 +83,7 @@ var Alpha = [
   "z",
 ];
 // Space is for the Uppercase conversion
-var Space = [];
+var space = [];
 // Choices declared outside the if statement so they can be concatenated upon condition
 var choices;
 // converts letters to uppercase
