@@ -52,7 +52,7 @@ var character = [
   "~",
 ];
 // Numeric characters
-var num = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+var number = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 // Alphabetical characters
 var alpha = [
   "a",
@@ -132,37 +132,37 @@ function generatePassword() {
     confirmLowercase
   ) {
     var character = [ ]
-    var choices = character.concat(num, alpha, alpha2);
+    var choices = character.concat(number, alpha, alpha2);
   }
   // Else if for 3 positive choices
   else if (confirmCharacter && confirmNumber && confirmUppercase) {
-   var choices = character.concat(num, alpha2);
+   var choices = character.concat(number, alpha2);
   } else if (confirmCharacter && confirmNumber && confirmLowercase) {
-    var choices = character.concat(num, alpha);
+    var choices = character.concat(number, alpha);
   } else if (confirmCharacter && confirmLowercase && confirmUppercase) {
     var choices = character.concat(alpha, alpha2);
   } else if (confirmNumber && confirmLowercase && confirmUppercase) {
-    var choices = num.concat(alpha, alpha2);
+    var choices = number.concat(alpha, alpha2);
   }
   // Else if for 2 positive choices
   else if (confirmCharacter && confirmNumber) {
-    var choices = character.concat(num);
+    var choices = character.concat(number);
   } else if (confirmCharacter && confirmLowercase) {
     var choices = character.concat(alpha);
   } else if (confirmCharacter && confirmUppercase) {
     var choices = character.concat(alpha2);
   } else if (confirmLowercase && confirmNumber) {
-    var choices = alpha.concat(num);
+    var choices = alpha.concat(number);
   } else if (confirmLowercase && confirmUppercase) {
     var choices = alpha.concat(alpha2);
   } else if (confirmNumber && confirmUppercase) {
-    var choices = num.concat(alpha2);
+    var choices = number.concat(alpha2);
   }
   // Else if for 1 positive choices
   else if (confirmCharacter) {
-    var choices = characte;
+    var choices = character;
   } else if (confirmNumber) {
-    var choices = num;
+    var choices = number;
   } else if (confirmLowercase) {
     var choices = alpha;
   }
