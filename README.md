@@ -12,4 +12,4 @@ syntax errors
 Check out this website link: https://codeyab22.github.io/Code-Convertible
 
 
-Here is the layout of the website:![image](https://codeyab22.github.io_Code-Convertible_.jpg)
+Here is the layout of the website:![image](https://codeyab22.github.io/Code-Convertible)
