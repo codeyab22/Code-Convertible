@@ -5,4 +5,4 @@ Problems does it solve: console errors on website, syntax errors
 Check out this website link:
 
 Here is the layout of the website:
-![image](codeyab22.github.io_Code-Convertible_.jpg)
+![image](codeyab22.github.io_Code-Convertible_ .jpg)
