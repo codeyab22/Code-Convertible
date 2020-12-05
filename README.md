@@ -6,4 +6,4 @@ My motivation: I would like to build my craft of registering clients and know th
 Problems does it solve: console errors on website, syntax errors
 Check out this website link: https://codeyab22.github.io/Code-Convertible/
 Here is the layout of the website:
-![image](codeyab22.github.io_Code-Convertible_.jpg)
+![image](codeyab22.github.io_CatchyCode_.jpg)
