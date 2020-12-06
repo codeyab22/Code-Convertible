@@ -13,7 +13,7 @@ console errors on website,
 syntax/grammatical errors
 extra line brackets
 Event Listeners
-Check out this website link: https://codeyab22.github.io/Code-Convertible
+Check out this website link:https://codeyab22.github.io/Code-Convertible-Password-Generator/
 
 
 Here is the carved layout of the website:![image](https://drive.google.com/uc?export=view&id=1qfUnxV0oKnkFd34dMYewBw3bKQFDdgH8)
